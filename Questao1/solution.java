@@ -4,15 +4,15 @@ class Solution {
     int[] less;
     int[] greater;
 
-    public long goodTriplets(int[] nums1, int[] nums2) {
-        int n = nums1.length;
-        int[] map = new int[n]; // map do nums2 para o vetor
+    public long goodTriplets(int[] n1, int[] n2) {
+        int n = n1.length;
+        int[] map = new int[n]; // map do n2 para o vetor
         for (int i = 0; i < n; i++) {
-            map[nums2[i]] = i;
+            map[n2[i]] = i;
         }
-        int[] index = new int[n]; // vetor representando posições do nums1 no nums2
+        int[] index = new int[n]; // vetor representando posições do n1 no n2
         for (int i = 0; i < n; i++) {
-            index[i] = map[nums1[i]];
+            index[i] = map[n1[i]];
         }
         less = new int[n];
         greater = new int[n];
