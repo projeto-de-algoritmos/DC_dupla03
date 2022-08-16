@@ -13,10 +13,16 @@
 Para aplicar os conhecimentos sobre Dividir e Conquistar, foram resolvidas 3 questões do juiz online LeetCoder, sendo elas:
 
 [Questão 1](https://leetcode.com/problems/count-good-triplets-in-an-array/) <br />
-[Questão 2](https://leetcode.com/problems/super-pow/)
+[Questão 2](https://leetcode.com/problems/super-pow/) <br />
+
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+### Questão 1
+![](./assets/question1.png)
+
+### Questão 2
+![](./assets/questao2.png)
+
 
 ## Instalação 
 **Linguagem**: Python e Java<br>
